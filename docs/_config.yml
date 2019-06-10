@@ -1,0 +1,10 @@
+title: Bagus Lestari Tailor | Menerima Jasa Jahit Baju, Servis Baju, Neci
+description: Kami menerima jahit, servis baju, neci. juga melayani jahit seragam sekolah, baju untuk lebaran, seragam resmi juga bisa. Juga tersedia benang dan kancing baju
+
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+theme: jekyll-theme-primer
