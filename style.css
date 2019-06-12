@@ -1599,15 +1599,16 @@ html .ui-button.ui-state-disabled:active {
 .about-us-content {
   position: relative;
   z-index: 1; }
-  .about-us-content h5 {
+  .about-us-content h6 {
     line-height: 1.8;
     color: #636a76;
     margin-bottom: 30px;
-    font-weight: 400; }
+    font-weight: 200; }
   .about-us-content p {
     margin-bottom: 30px; }
     .about-us-content p span {
-      color: #00c0ef; }
+      color: #00c0ef; 
+      font-size: 25px; }
 
 .about-thumbnail {
   position: relative;
