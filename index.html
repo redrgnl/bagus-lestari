@@ -69,13 +69,13 @@
         </div>
 
         <!-- Top Header Area Start -->
-        <div class="top-header-area">
+        <div class="top-header-area" id="top">
             <div class="container">
                 <div class="row">
 
                     <div class="col-6">
                         <div class="top-header-content">
-                            <a href="#about" id="btn-about">Tentang Kami</a>
+                            <a href="#about" id="btn-about">Tentang</a>
                             <a href="#contact" id="btn-contact">Kontak</a>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
     <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
             <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-7.jpg);" data-img-url="img/bg-img/bg-7.jpg">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-1.jpg);" data-img-url="img/bg-img/bg-1.jpg">
                 <!-- Welcome Content -->
                 <div class="welcome-content h-100">
                     <div class="container h-100">
@@ -123,7 +123,7 @@
             </div>
 
             <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-5.jpg);" data-img-url="img/bg-img/bg-5.jpg">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);" data-img-url="img/bg-img/bg-2.jpg">
                 <!-- Welcome Content -->
                 <div class="welcome-content h-100">
                     <div class="container h-100">
@@ -141,7 +141,7 @@
             </div>
 
             <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-6.jpg);" data-img-url="img/bg-img/bg-6.jpg">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-3.jpg);" data-img-url="img/bg-img/bg-3.jpg">
                 <!-- Welcome Content -->
                 <div class="welcome-content h-100">
                     <div class="container h-100">
@@ -282,7 +282,7 @@
         <!-- Projects Slide -->
         <div class="projects-slides owl-carousel">
             <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/bg-5.jpg);">
+            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
                 <!-- Project Text -->
                 <div class="project-content">
                     <div class="text">
@@ -302,7 +302,7 @@
             </div>
 
             <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/bg-6.jpg);">
+            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
                 <!-- Project Text -->
                 <div class="project-content">
                     <div class="text">
@@ -351,7 +351,7 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-md-7">
                         <div class="cta-text mb-50">
-                            <h2>Hubungi Kami</h2>
+                            <h3>Hubungi Kami</h3>
                             <h6>Untuk Saran Lebih Lanjut (+62) 852-0491-4199</h6>
                         </div>
                     </div>
@@ -376,7 +376,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-footer-widget">
                             <!-- Footer Logo -->
-                            <a href="#top" class="footer-logo"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="#top" class="footer-logo" id="btn-top"><img src="img/core-img/logo2.png" alt=""></a>
 
                             <h4>
                                 <a href="https://wa.me/6285204914199" style="color: #00c0ef" target="_blank">
@@ -464,7 +464,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $('#btn-about, #btn-contact').on('click', function(event) {
+  $('#btn-about, #btn-contact, #btn-top').on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
